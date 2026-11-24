@@ -13,3 +13,6 @@ The sitemap regenerates with every build. Submit https://theothertab.uk/sitemap.
 
 ## Personal pages and featured posts
 Edit `now.md`, `uses.md` and `bookmarks.md` to maintain the personal pages. Mark a post `featured: true` to pin it to the homepage; if several posts are marked, the newest wins. Images within articles automatically open in a keyboard-accessible lightbox unless already linked or marked `data-no-lightbox`.
+
+## Version 1.0
+Add gallery entries to `_data/photos.yml` (src, alt, caption, album, settings). Add notes to `_notes/` with layout: default, title and date. Series posts use `series` and numeric `series_part`; use `last_modified_at` for revised posts. Set `goatcounter_code` only after creating a GoatCounter account. PWA provides an offline fallback, not full offline article caching. Scheduled future posts require a rebuild after their publication date.

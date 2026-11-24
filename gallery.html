@@ -1,0 +1,8 @@
+---
+layout: default
+title: Gallery
+description: A collection of photographs and visual stories.
+permalink: /gallery/
+---
+<section class="page-head"><h1>Gallery.</h1><p class="intro">A collection of photographs and visual stories.</p></section>
+{% assign photos = site.data.photos %}{% if photos and photos.size > 0 %}{% assign albums = photos | group_by: 'album' %}{% for album in albums %}<h2 class="section-head">{{ album.name | default: 'Photographs' | escape }}</h2><div class="photo-gallery">{% for photo in album.items %}<figure><img src="{{ photo.src | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy"><figcaption>{{ photo.caption | escape }}{% if photo.settings %}<span class="meta">{{ photo.settings | escape }}</span>{% endif %}</figcaption></figure>{% endfor %}</div>{% endfor %}{% else %}<p>Photographs will appear here as the gallery grows. Meanwhile, browse <a href="/archive/?category=Photography">photography articles</a>.</p>{% endif %}

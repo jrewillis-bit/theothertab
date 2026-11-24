@@ -10,13 +10,13 @@ permalink: /privacy/
 
 # Privacy.
 
-The Other Tab is an independent personal blog. It does not currently use advertising, analytics scripts or embedded social media trackers.
+The Other Tab is an independent personal blog. It does not use advertising or embedded social media trackers. {% if site.goatcounter_code and site.goatcounter_code != '' %}The site uses GoatCounter for aggregate readership statistics; see [GoatCounter privacy information](https://www.goatcounter.com/privacy).{% else %}Analytics are currently disabled.{% endif %}
 
 ## Hosting and browser storage
 
 The site is hosted by GitHub Pages. GitHub may process technical information such as IP addresses and request logs to operate and secure its service. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-The site uses local storage to remember your display mode and accent colour preferences. These settings stay in your browser and are not used to identify or track you. You can clear it through your browser settings.
+The site uses local storage to remember your display mode, accent colour and reading text size preferences. These settings stay in your browser and are not used to identify or track you. You can clear it through your browser settings.
 
 ## Email correspondence
 

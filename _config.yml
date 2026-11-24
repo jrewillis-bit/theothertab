@@ -15,3 +15,10 @@ exclude: [README.md]
 google_site_verification: ""
 bing_site_verification: ""
 seo_default_image: /assets/social-card.png
+
+# Optional GoatCounter site code; blank disables analytics.
+goatcounter_code: ""
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/

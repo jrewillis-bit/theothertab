@@ -1,0 +1,8 @@
+---
+layout: default
+title: Short Notes
+description: Small discoveries and observations without the need for a full article.
+permalink: /notes/
+---
+<section class="page-head"><h1>Short Notes.</h1><p class="intro">Small discoveries and observations without the need for a full article.</p></section>
+{% assign notes = site.notes | sort: 'date' | reverse %}{% for note in notes %}<article class="note-card"><p class="meta">{{ note.date | date: '%-d %B %Y' }}</p><h2><a href="{{ note.url | relative_url }}">{{ note.title | escape }}</a></h2>{{ note.content | markdownify }}</article>{% else %}<p>No notes published yet.</p>{% endfor %}
