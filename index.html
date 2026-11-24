@@ -2,4 +2,5 @@
 layout: default
 title: Home
 ---
-<section class="hero"><span class="hero-decoration" aria-hidden="true">[ tab_01 ]</span><p class="eyebrow">// A personal corner of the internet</p><h1>Life beyond<br>the main tab<span class="accent">.</span></h1><p class="intro">Thoughts on technology, living with less, gaming, education and everything in between.</p><a class="button" href="{{ '/archive/' | relative_url }}">Explore articles →</a></section><div class="section-head"><h2>Recently opened.</h2><a href="{{ '/archive/' | relative_url }}">All articles →</a></div>{% assign latest = site.posts | slice: 0, 6 %}{% include post-list.html posts=latest %}
+<section class="hero"><div><p class="eyebrow">An independent personal blog</p><h1>Life beyond the main tab<span class="accent">.</span></h1><p class="intro">Thoughts on technology, living with less, gaming, education and everything in between.</p></div><a class="button" href="{{ '/archive/' | relative_url }}">Explore articles →</a></section>
+<div class="section-head"><h2>Recently opened</h2><a href="{{ '/archive/' | relative_url }}">All articles →</a></div>{% assign latest = site.posts | slice: 0, 6 %}{% include post-list.html posts=latest %}
