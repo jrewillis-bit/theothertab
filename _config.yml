@@ -1,0 +1,11 @@
+title: The Other Tab
+description: A little bit of everything, with a curious mind.
+url: https://jrewillis-bit.github.io
+baseurl: /theothertab
+lang: en-GB
+timezone: Europe/London
+permalink: /articles/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude: [README.md]

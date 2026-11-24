@@ -1,0 +1,5 @@
+---
+layout: default
+title: Home
+---
+<section class="hero"><p class="eyebrow">A personal corner of the internet</p><h1>Life beyond<br>the main tab<span class="accent">.</span></h1><p class="intro">Thoughts on technology, living with less, gaming, education and everything in between.</p><a class="button" href="{{ '/archive/' | relative_url }}">Explore articles →</a></section><div class="section-head"><h2>Latest articles</h2><a href="{{ '/archive/' | relative_url }}">View all →</a></div>{% assign latest = site.posts | slice: 0, 6 %}{% include post-list.html posts=latest %}
