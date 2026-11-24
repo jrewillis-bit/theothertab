@@ -1,0 +1,35 @@
+---
+layout: default
+title: Privacy
+description: How The Other Tab handles visitor privacy, local storage, hosting and email correspondence.
+permalink: /privacy/
+---
+<div class="info-page" markdown="1">
+
+<p class="eyebrow">Your privacy</p>
+
+# Privacy.
+
+The Other Tab is an independent personal blog. It does not currently use advertising, analytics scripts or embedded social media trackers.
+
+## Hosting and browser storage
+
+The site is hosted by GitHub Pages. GitHub may process technical information such as IP addresses and request logs to operate and secure its service. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+The site uses local storage to remember your light or dark theme preference. This setting stays in your browser and is not used to identify or track you. You can clear it through your browser settings.
+
+## Email correspondence
+
+If you email contact@theothertab.uk, your message, email address and any information you choose to include will be used to respond to your enquiry and manage correspondence. Messages are forwarded to a Gmail mailbox. Email providers may process messages to deliver and secure them.
+
+Correspondence is kept only as long as reasonably needed for its purpose or applicable obligations. Please do not send sensitive information unnecessarily.
+
+## External links and sharing
+
+External websites and social sharing services have their own privacy policies. Sharing links only contact those services when you choose to open them. Copying an article link does not send it to a social network.
+
+## Your questions and rights
+
+You can contact [contact@theothertab.uk](mailto:contact@theothertab.uk) with privacy questions or requests concerning your personal information. Where applicable, you may also contact the [Information Commissioner's Office](https://ico.org.uk/).
+
+</div>

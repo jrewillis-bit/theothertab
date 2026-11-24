@@ -1,14 +1,29 @@
 ---
 layout: default
 title: About
+description: Meet the independent UK blog exploring technology, teaching, gaming and living with less.
 permalink: /about/
 ---
-<section class="page-head"><p class="eyebrow">Behind the blog</p><h1>About.</h1></section>
+<div class="info-page" markdown="1">
 
-The Other Tab is a personal space for exploring technology, minimalism, gaming, teaching and everyday life.
+<p class="eyebrow">Behind the blog</p>
 
-There is no single subject, publishing schedule or algorithm to satisfy. Just a place for interesting ideas, useful discoveries and thoughtful discussion.
+# About The Other Tab.
 
-The site is intentionally simple: no advertising, no analytics and no unnecessary distractions.
+I'm a Computer Science teacher based in the UK, with an interest in technology, gaming, digital minimalism and the ways technology fits into everyday life.
 
-Subscribe via [RSS]({{ '/feed.xml' | relative_url }}) to follow new articles.
+The Other Tab is a place to explore those interests without having to stick to a single subject. Some articles will be practical guides, others will be personal reflections or opinions.
+
+## What you'll find here
+
+Technology, teaching, gaming, living with less and whatever else seems worth writing about. The emphasis is on useful ideas and genuine experiences rather than publishing for the sake of it.
+
+## Why an independent blog?
+
+A small corner of the internet without advertising, tracking scripts or an algorithm deciding what to read next.
+
+The views expressed here are my own and do not represent my employer.
+
+If you'd like to get in touch, visit the [contact page]({{ '/contact/' | relative_url }}). You can also follow new articles via [RSS]({{ '/feed.xml' | relative_url }}).
+
+</div>
