@@ -4,6 +4,7 @@ title: Your article title
 category: Technology
 description: A short summary of the article.
 tags: [linux, software]
+featured: false
 ---
 Start writing here. Use Markdown headings, links, lists and images.
 

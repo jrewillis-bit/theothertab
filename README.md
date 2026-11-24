@@ -10,3 +10,6 @@ Optional post front matter: `cover: /assets/images/example.jpg` and `cover_alt: 
 
 ## SEO
 The sitemap regenerates with every build. Submit https://theothertab.uk/sitemap.xml in Google Search Console and Bing Webmaster Tools. Google domain verification requires the TXT record supplied by Google in Porkbun. Alternatively use URL-prefix HTML meta verification by setting `google_site_verification` in `_config.yml`; use `bing_site_verification` for Bing's meta code. Only use genuine codes. Each article's title, description and cover automatically generate canonical, Open Graph, Twitter and BlogPosting metadata. Optional `author` and `last_modified_at` can be provided in front matter. The fallback social image is `assets/social-card.png`.
+
+## Personal pages and featured posts
+Edit `now.md`, `uses.md` and `bookmarks.md` to maintain the personal pages. Mark a post `featured: true` to pin it to the homepage; if several posts are marked, the newest wins. Images within articles automatically open in a keyboard-accessible lightbox unless already linked or marked `data-no-lightbox`.
