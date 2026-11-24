@@ -12,7 +12,7 @@ permalink: /changelog/
 - Added personal pages, photography gallery, article series and short notes.
 - Added reading controls, table of contents, archive dates and random articles.
 - Added web app support and print styles.
-- Added optional privacy-friendly analytics configuration.
+- Enabled Cloudflare Web Analytics for readership and performance statistics.
 
 ## Initial release · 24 November 2026
 

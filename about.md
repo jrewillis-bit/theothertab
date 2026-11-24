@@ -20,7 +20,7 @@ Technology, teaching, gaming, photography, living with less and whatever else se
 
 ## Why an independent blog?
 
-A small corner of the internet without advertising, tracking scripts or an algorithm deciding what to read next.
+A small corner of the internet without advertising, cross-site advertising trackers or an algorithm deciding what to read next.
 
 The views expressed here are my own and do not represent my employer.
 

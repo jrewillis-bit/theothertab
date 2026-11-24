@@ -3,7 +3,7 @@
 A personal Jekyll blog. Enable Settings > Pages > Deploy from a branch > main > / (root).
 
 ## Publish
-Create `_posts/YYYY-MM-DD-title.md` using the example in `_drafts/example.md`. Use one category (Technology, Minimalism, Gaming, Teaching, Photography or Life), a description and optional tags. Commit to main. Drafts are not published. Edit `_config.yml` when moving to a custom domain. No analytics, cookies or external fonts.
+Create `_posts/YYYY-MM-DD-title.md` using the example in `_drafts/example.md`. Use one category (Technology, Minimalism, Gaming, Teaching, Photography or Life), a description and optional tags. Commit to main. Drafts are not published. Edit `_config.yml` when moving to a custom domain. No advertising or external fonts. Cloudflare Web Analytics is enabled through the public beacon token.
 
 ## Cover images
 Optional post front matter: `cover: /assets/images/example.jpg` and `cover_alt: Description of the image`. Upload the image to that path. Posts without images use a simple category header.
@@ -15,4 +15,4 @@ The sitemap regenerates with every build. Submit https://theothertab.uk/sitemap.
 Edit `now.md`, `uses.md` and `bookmarks.md` to maintain the personal pages. Mark a post `featured: true` to pin it to the homepage; if several posts are marked, the newest wins. Images within articles automatically open in a keyboard-accessible lightbox unless already linked or marked `data-no-lightbox`.
 
 ## Version 1.0
-Add gallery entries to `_data/photos.yml` (src, alt, caption, album, settings). Add notes to `_notes/` with layout: default, title and date. Series posts use `series` and numeric `series_part`; use `last_modified_at` for revised posts. Set `goatcounter_code` only after creating a GoatCounter account. PWA provides an offline fallback, not full offline article caching. Scheduled future posts require a rebuild after their publication date.
+Add gallery entries to `_data/photos.yml` (src, alt, caption, album, settings). Add notes to `_notes/` with layout: default, title and date. Series posts use `series` and numeric `series_part`; use `last_modified_at` for revised posts. Set `cloudflare_analytics_token` to the public beacon token supplied by Cloudflare Web Analytics; leave blank to disable analytics. PWA provides an offline fallback, not full offline article caching. Scheduled future posts require a rebuild after their publication date.

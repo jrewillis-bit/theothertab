@@ -10,7 +10,7 @@ permalink: /privacy/
 
 # Privacy.
 
-The Other Tab is an independent personal blog. It does not use advertising or embedded social media trackers. {% if site.goatcounter_code and site.goatcounter_code != '' %}The site uses GoatCounter for aggregate readership statistics; see [GoatCounter privacy information](https://www.goatcounter.com/privacy).{% else %}Analytics are currently disabled.{% endif %}
+The Other Tab is an independent personal blog. It does not use advertising or embedded social media trackers. {% if site.cloudflare_analytics_token and site.cloudflare_analytics_token != '' %}The site uses Cloudflare Web Analytics to measure readership and page performance. This service does not use cookies for analytics or track visitors across websites. The browser sends measurement information to Cloudflare, which processes it to provide aggregate statistics such as page views, referring sites, approximate location, browser information and loading performance. See [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).{% else %}Analytics are currently disabled.{% endif %}
 
 ## Hosting and browser storage
 

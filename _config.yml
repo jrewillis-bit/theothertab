@@ -16,8 +16,8 @@ google_site_verification: ""
 bing_site_verification: ""
 seo_default_image: /assets/social-card.png
 
-# Optional GoatCounter site code; blank disables analytics.
-goatcounter_code: ""
+# Cloudflare Web Analytics public beacon token; blank disables analytics.
+cloudflare_analytics_token: "352f2438655a49d48daf78d41d37d26b"
 collections:
   notes:
     output: true
