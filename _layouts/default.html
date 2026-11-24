@@ -7,4 +7,4 @@
 const dateFormat=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'short',day:'numeric',month:'short',year:'numeric'});
 const timeFormat=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
 function tick(){const now=new Date();document.getElementById('live-date').textContent=dateFormat.format(now);const t=document.getElementById('live-time');t.textContent=timeFormat.format(now);t.dateTime=now.toISOString()}tick();setInterval(tick,1000);
-</script><script src="{{ '/assets/appearance.js' | relative_url }}?v=1" defer></script><script src="{{ '/assets/lightbox.js' | relative_url }}" defer></script><script src="/assets/site-tools.js" defer></script><script src="/assets/navigation.js" defer></script></body></html>
+</script><script src="{{ '/assets/appearance.js' | relative_url }}?v=1" defer></script><script src="{{ '/assets/lightbox.js' | relative_url }}" defer></script><script src="/assets/site-tools.js" defer></script><script src="/assets/navigation.js?v=2" defer></script></body></html>
