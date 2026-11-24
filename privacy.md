@@ -16,7 +16,7 @@ The Other Tab is an independent personal blog. It does not currently use adverti
 
 The site is hosted by GitHub Pages. GitHub may process technical information such as IP addresses and request logs to operate and secure its service. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-The site uses local storage to remember your light or dark theme preference. This setting stays in your browser and is not used to identify or track you. You can clear it through your browser settings.
+The site uses local storage to remember your display mode and accent colour preferences. These settings stay in your browser and are not used to identify or track you. You can clear it through your browser settings.
 
 ## Email correspondence
 
