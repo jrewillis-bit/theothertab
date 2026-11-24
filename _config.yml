@@ -1,5 +1,5 @@
 title: The Other Tab
-description: A little bit of everything, with a curious mind.
+description: An independent UK blog about technology, digital minimalism, gaming, teaching and everyday life. Practical ideas, personal experiences and thoughtful perspectives.
 url: https://theothertab.uk
 baseurl: ""
 lang: en-GB
@@ -8,4 +8,10 @@ permalink: /articles/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 exclude: [README.md]
+
+# Optional public verification codes, supplied by the services.
+google_site_verification: ""
+bing_site_verification: ""
+seo_default_image: /assets/social-card.png
