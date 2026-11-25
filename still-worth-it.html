@@ -25,6 +25,7 @@ permalink: /still-worth-it/
 <p>The first long-term reviews are planned. They'll appear here as soon as they are published.</p>
 {% endif %}
 <div class="section-head"><h2>Original articles</h2><span class="meta">Before the follow-up</span></div>
-{% assign originals = site.posts | where_exp: 'p', "p.url == '/articles/my-235-thinkpad-running-linux-mint/' or p.url == '/articles/my-own-little-cloud-ugreen-nasync-dxp2800/'" %}
+{% assign original_urls = '/articles/my-235-thinkpad-running-linux-mint/|/articles/my-own-little-cloud-ugreen-nasync-dxp2800/' | split: '|' %}
+{% assign originals = site.posts | where_exp: 'p', 'original_urls contains p.url' %}
 {% include post-list.html posts=originals %}
 <p><a href="/series/">Browse all article series →</a></p>
