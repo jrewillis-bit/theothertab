@@ -3,7 +3,7 @@
 A personal Jekyll blog. Enable Settings > Pages > Deploy from a branch > main > / (root).
 
 ## Publish
-Create `_posts/YYYY-MM-DD-title.md` using the example in `_drafts/example.md`. Use one category (Technology, Minimalism, Gaming, Teaching, Photography or Life), a description and optional tags. Commit to main. Drafts are not published. Edit `_config.yml` when moving to a custom domain. No advertising or external fonts. Cloudflare Web Analytics is enabled through the public beacon token.
+Create `_posts/YYYY-MM-DD-title.md` using the example in `_drafts/example.md`. Use one category (Technology, Digital Living, Minimalism, Personal Finance, Sustainability, Film & Media, Gaming, Teaching, Photography or Life), a description and optional tags. Commit to main. Drafts are not published. Edit `_config.yml` when moving to a custom domain. No advertising or external fonts. Cloudflare Web Analytics is enabled through the public beacon token.
 
 ## Cover images
 Optional post front matter: `cover: /assets/images/example.jpg` and `cover_alt: Description of the image`. Upload the image to that path. Posts without images use a simple category header.
