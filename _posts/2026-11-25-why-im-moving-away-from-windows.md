@@ -4,8 +4,8 @@ title: "Why I'm gradually moving away from Microsoft Windows"
 category: Technology
 description: "Why I'm gradually replacing Windows with Linux Mint, the software I can still use, the compromises I've made and why older computers deserve a longer life."
 tags: [Linux, Linux Mint, Windows, Open Source, Digital Independence]
-cover: /assets/images/thinkpad-linux-mint.webp
-cover_alt: "My Linux Mint desktop with a colourful abstract wallpaper and application panel"
+cover: /assets/images/why-im-moving-away-from-windows-cover.webp
+cover_alt: "Illustration of a Lenovo ThinkPad running Linux Mint beside SUSE Linux 7.3 CDs on a wooden desk"
 featured: false
 ---
 
@@ -251,4 +251,4 @@ Today, I use Linux because I increasingly want my technology to get out of the w
 - [My own little cloud: living with the UGREEN NASync DXP2800](/articles/my-own-little-cloud-ugreen-nasync-dxp2800/)
 - [Building a personal blog for the price of a domain name](/articles/building-a-personal-blog-for-the-price-of-a-domain-name/)
 
-*Cover image: my Linux Mint desktop, from my ThinkPad article.*
+*Cover image: AI-generated editorial illustration, not a photograph of my actual desk.*
