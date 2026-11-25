@@ -41,8 +41,6 @@ The idea is to manage drafts, photographs, short notes and personal pages in one
 
 I have kept the final publishing step manual. It means I can check exactly what is going into the public repository before committing anything.
 
-I used AI to help develop the site and its tools. That made it much easier to experiment with layouts and features, but it did not remove the need to make decisions, test things and occasionally fix problems.
-
 ## What about performance and privacy?
 
 A static website has relatively little work to do when somebody visits. There is no database to query or application server to generate each page on demand.
