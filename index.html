@@ -3,4 +3,89 @@ layout: default
 title: Home
 ---
 <section class="hero"><div><p class="eyebrow">An independent personal blog</p><h1>Life beyond the main tab<span class="accent">.</span></h1><p class="intro">Thoughts on technology, living with less, gaming, education, photography and everything in between.</p></div><a class="button" href="{{ '/archive/' | relative_url }}">Explore articles →</a></section>
-{% assign pinned = site.posts | where: "featured", true | first %}{% if pinned %}<section class="featured-section" aria-labelledby="featured-heading"><h2 id="featured-heading" class="eyebrow">Featured article</h2><a class="featured-card" href="{{ pinned.url | relative_url }}">{% if pinned.cover %}<img src="{{ pinned.cover | relative_url }}" alt="" loading="lazy">{% endif %}<div><p class="eyebrow">{{ pinned.category | escape }} · {{ pinned.date | date: '%-d %B %Y' }}</p><h2>{{ pinned.title | escape }}</h2><p>{{ pinned.description | default: pinned.excerpt | strip_html | escape }}</p><span class="featured-read">Read article →</span></div></a></section>{% endif %}<div class="section-head"><h2>Recently opened</h2><a href="{{ '/archive/' | relative_url }}">All articles →</a></div>{% if pinned %}{% assign latest = site.posts | where_exp: 'item', 'item.url != pinned.url' | slice: 0, 6 %}{% else %}{% assign latest = site.posts | slice: 0, 6 %}{% endif %}{% include post-list.html posts=latest %}
+{% assign featured_slugs = 'my-235-thinkpad-running-linux-mint|film-review-fico-my-stuff|the-hidden-cost-of-constant-notifications' | split: '|' %}
+{% assign featured_posts = '' | split: ',' %}
+{% for slug in featured_slugs %}
+  {% for post in site.posts %}
+    {% assign post_slug = post.url | split: '/' | last %}
+    {% if post_slug == slug %}
+      {% assign featured_posts = featured_posts | push: post %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% if featured_posts.size > 0 %}
+<section class="featured-section featured-carousel" aria-labelledby="featured-heading" aria-roledescription="carousel">
+  <h2 id="featured-heading" class="eyebrow">Featured articles</h2>
+  <div class="featured-viewport" id="featured-viewport">
+    {% for post in featured_posts %}
+    <div class="featured-slide" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ featured_posts.size }}"{% unless forloop.first %} hidden{% endunless %}>
+      <a class="featured-card" href="{{ post.url | relative_url }}">
+        {% if post.cover %}<img src="{{ post.cover | relative_url }}" alt=""{% unless forloop.first %} loading="lazy"{% endunless %}>{% endif %}
+        <div><p class="eyebrow">{{ post.category | escape }} · {{ post.date | date: '%-d %B %Y' }}</p><h2>{{ post.title | escape }}</h2><p>{{ post.description | default: post.excerpt | strip_html | escape }}</p><span class="featured-read">Read article →</span></div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% if featured_posts.size > 1 %}
+  <div class="featured-controls" hidden>
+    <button type="button" id="featured-prev" aria-label="Previous featured article" aria-controls="featured-viewport">←</button>
+    <div class="featured-dots" role="group" aria-label="Choose featured article">
+      {% for post in featured_posts %}<button type="button" class="featured-dot" data-slide="{{ forloop.index0 }}" aria-label="Show {{ post.title | escape }}" aria-current="{% if forloop.first %}true{% else %}false{% endif %}"></button>{% endfor %}
+    </div>
+    <button type="button" id="featured-next" aria-label="Next featured article" aria-controls="featured-viewport">→</button>
+    <button type="button" id="featured-pause" aria-label="Pause automatic rotation" aria-controls="featured-viewport">Pause</button>
+  </div>
+  {% endif %}
+</section>
+<style>
+.featured-viewport{display:grid}
+.featured-slide{grid-area:1/1;min-width:0;display:flex}
+.featured-slide[hidden]{display:flex!important;visibility:hidden;pointer-events:none}
+.featured-slide .featured-card{width:100%;box-sizing:border-box}
+.featured-slide:not([hidden]){animation:featured-in .4s ease-out}
+.featured-controls{display:flex;align-items:center;justify-content:center;gap:10px;margin:12px 0 0}
+.featured-controls[hidden]{display:none}
+.featured-controls button{font:inherit;font-size:13px;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:6px;min-width:36px;min-height:36px;cursor:pointer}
+.featured-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.featured-dots{display:flex;align-items:center;gap:3px}
+.featured-dots .featured-dot{width:30px;min-width:30px;border:0;background:transparent;position:relative}
+.featured-dot:after{content:'';position:absolute;inset:13px 10px;border-radius:50%;background:var(--muted);opacity:.45}
+.featured-dot[aria-current=true]:after{background:var(--accent);opacity:1}
+#featured-pause{padding:0 12px}
+@keyframes featured-in{from{opacity:.3;transform:translateX(7px)}to{opacity:1;transform:translateX(0)}}
+@media(prefers-reduced-motion:reduce){.featured-slide:not([hidden]){animation:none}}
+</style>
+<script>
+(()=>{
+const root=document.querySelector('.featured-carousel');if(!root)return;
+const slides=[...root.querySelectorAll('.featured-slide')],controls=root.querySelector('.featured-controls');if(slides.length<2||!controls)return;
+const dots=[...root.querySelectorAll('.featured-dot')],pause=root.querySelector('#featured-pause'),motion=matchMedia('(prefers-reduced-motion: reduce)');
+let index=0,timer=null,paused=motion.matches,hover=false,focus=false;
+function show(i){index=(i+slides.length)%slides.length;slides.forEach((slide,n)=>{slide.hidden=n!==index;slide.inert=n!==index;slide.setAttribute('aria-hidden',String(n!==index))});dots.forEach((dot,n)=>dot.setAttribute('aria-current',String(n===index)))}
+function schedule(){clearInterval(timer);timer=null;if(!paused&&!hover&&!focus&&!document.hidden)timer=setInterval(()=>show(index+1),6000)}
+function sync(){pause.textContent=paused?'Play':'Pause';pause.setAttribute('aria-label',paused?'Start automatic rotation':'Pause automatic rotation');schedule()}
+function manual(i){show(i);schedule()}
+root.querySelector('#featured-prev').onclick=()=>manual(index-1);
+root.querySelector('#featured-next').onclick=()=>manual(index+1);
+dots.forEach((dot,n)=>dot.onclick=()=>manual(n));
+pause.onclick=()=>{paused=!paused;sync()};
+root.addEventListener('mouseenter',()=>{hover=true;schedule()});
+root.addEventListener('mouseleave',()=>{hover=false;schedule()});
+root.addEventListener('focusin',()=>{focus=true;schedule()});
+root.addEventListener('focusout',e=>{if(!root.contains(e.relatedTarget)){focus=false;schedule()}});
+document.addEventListener('visibilitychange',schedule);
+motion.addEventListener('change',e=>{if(e.matches)paused=true;sync()});
+show(0);controls.hidden=false;sync();
+})();
+</script>
+{% endif %}
+<div class="section-head"><h2>Recently opened</h2><a href="{{ '/archive/' | relative_url }}">All articles →</a></div>
+{% assign recent_posts = '' | split: ',' %}
+{% for post in site.posts %}
+  {% unless featured_posts contains post %}
+    {% assign recent_posts = recent_posts | push: post %}
+    {% if recent_posts.size == 6 %}{% break %}{% endif %}
+  {% endunless %}
+{% endfor %}
+{% include post-list.html posts=recent_posts %}
