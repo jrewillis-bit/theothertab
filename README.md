@@ -16,3 +16,6 @@ Edit `now.md`, `uses.md` and `bookmarks.md` to maintain the personal pages. Mark
 
 ## Version 1.0
 Add gallery entries to `_data/photos.yml` (src, alt, caption, album, settings). Add notes to `_notes/` with layout: default, title and date. Series posts use `series` and numeric `series_part`; use `last_modified_at` for revised posts. Set `cloudflare_analytics_token` to the public beacon token supplied by Cloudflare Web Analytics; leave blank to disable analytics. PWA provides an offline fallback, not full offline article caching. Scheduled future posts require a rebuild after their publication date.
+
+## Still Worth It? long-term reviews
+The series hub lives at `/still-worth-it/`. Add a new post with `series: "Still Worth It?"` and the next unused positive integer `series_part`. Part 0 is reserved for the introductory article and uses `series_intro: true`. The hub and article series navigation populate automatically. Use `_drafts/still-worth-it-review.md` for the review structure; fill in actual ownership details and mark unknowns rather than inventing figures. Use the series artwork at `/assets/images/still-worth-it.svg` when no suitable original photograph is available. The homepage carousel continues to use its existing curated selections.

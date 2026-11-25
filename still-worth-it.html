@@ -1,0 +1,30 @@
+---
+layout: default
+title: "Still Worth It?"
+description: "Long-term ownership reviews, honest running costs, repairs and second-hand value."
+permalink: /still-worth-it/
+---
+<section class="page-head">
+  <p class="eyebrow">An original series from The Other Tab</p>
+  <h1>Still Worth It?</h1>
+  <p class="intro">Real ownership. Real experience. A second look, long after the novelty wears off.</p>
+</section>
+<img src="/assets/images/still-worth-it.svg" alt="Still Worth It? series artwork" style="width:100%;border-radius:9px;display:block;margin:0 0 24px">
+<p>Long-term reviews of technology, vehicles and everyday purchases, focusing on reliability, repairability, actual ownership costs and whether I would buy them again.</p>
+{% assign series_posts = site.posts | where: 'series', 'Still Worth It?' | sort: 'series_part' %}
+{% assign introduction = series_posts | where: 'series_intro', true %}
+{% if introduction.size > 0 %}
+<div class="section-head"><h2>Start here</h2></div>
+{% include post-list.html posts=introduction %}
+{% endif %}
+<div class="section-head"><h2>Long-term reviews</h2><span class="meta">Published instalments</span></div>
+{% assign reviews = series_posts | where_exp: 'p', 'p.series_intro != true' %}
+{% if reviews.size > 0 %}
+{% include post-list.html posts=reviews %}
+{% else %}
+<p>The first long-term reviews are planned. They'll appear here as soon as they are published.</p>
+{% endif %}
+<div class="section-head"><h2>Original articles</h2><span class="meta">Before the follow-up</span></div>
+{% assign originals = site.posts | where_exp: 'p', "p.url == '/articles/my-235-thinkpad-running-linux-mint/' or p.url == '/articles/my-own-little-cloud-ugreen-nasync-dxp2800/'" %}
+{% include post-list.html posts=originals %}
+<p><a href="/series/">Browse all article series →</a></p>
