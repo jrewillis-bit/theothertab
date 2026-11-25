@@ -9,9 +9,9 @@ permalink: /blogroll/
 
 A starter selection to explore, rather than a claim that I regularly read every site.
 
-- [Simon Willison's Weblog](https://simonwillison.net/) (software and technology)
-- [Daring Fireball](https://daringfireball.net/) (technology commentary)
-- [The Marginalian](https://www.themarginalian.org/) (ideas, books and culture)
+- [Simon Willison's Weblog](https://simonwillison.net/){:target="_blank" rel="noopener noreferrer"} (software and technology)
+- [Daring Fireball](https://daringfireball.net/){:target="_blank" rel="noopener noreferrer"} (technology commentary)
+- [The Marginalian](https://www.themarginalian.org/){:target="_blank" rel="noopener noreferrer"} (ideas, books and culture)
 
 More personal recommendations will follow.
 
