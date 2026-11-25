@@ -1,16 +1,29 @@
 ---
 layout: default
 title: The Lab
-description: Experiments, small projects and useful tools.
+description: A collection of websites, educational resources and practical digital projects.
 permalink: /lab/
 ---
-<section class="page-head"><h1>The Lab.</h1><p class="intro">Experiments, small projects and useful tools.</p></section>
-<div class="info-page" markdown="1">
-
-## The Other Tab
-
-An independent website built with Jekyll and GitHub Pages. [Browse the source code](https://github.com/jrewillis-bit/theothertab).
-
-More projects and tools will be added here as they are ready to share.
-
+<style>
+.lab-intro{max-width:760px;margin-bottom:26px}.lab-section{margin-top:30px}.lab-section>h2{margin-bottom:8px}.lab-section>p{color:var(--muted);margin-top:0}.lab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,235px),1fr));gap:14px}.lab-card{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:20px;display:flex;flex-direction:column;gap:9px;min-width:0}.lab-card svg{color:var(--accent)}.lab-card h3{font-size:19px;line-height:1.3;margin:0}.lab-card p{color:var(--muted);font-size:14px;margin:0 0 8px}.lab-card a{font-weight:650;font-size:14px;margin-top:auto;align-self:start}.lab-feature{border:1px solid var(--line);border-left:4px solid var(--accent);background:var(--soft);padding:24px;border-radius:8px;margin:18px 0}.lab-feature h2{margin:6px 0 10px}.lab-feature p{max-width:740px;color:var(--muted)}.lab-feature a{font-weight:650}.lab-note{font-size:13px;color:var(--muted);margin-top:24px}
+</style>
+<section class="page-head lab-intro"><h1>The Lab.</h1><p class="intro">A collection of things I've built, experiments I've tried and tools designed to solve everyday problems.</p></section>
+<section class="lab-section" aria-labelledby="education-projects">
+<p class="eyebrow">Education &amp; technology</p>
+<div class="lab-feature"><p class="eyebrow">Featured project</p><h2 id="education-projects">KNGS Computer Science Learning Hub</h2><p>A connected collection of eight learning and staff hubs, designed to support independent Computer Science learning, revision, feedback and classroom practice. The project brings together resources for KS3, GCSE and A Level in one accessible starting point.</p><a href="https://kingsnortongirls.github.io/homepage/">Visit the Learning Hub →</a></div>
+<div class="lab-grid">
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M4 4h7v16H4z M13 4h7v16h-7z"/></svg><h3>Revision Hub</h3><p>Topic-by-topic revision, flashcards and practice activities for Computer Science.</p><a href="https://kingsnortongirls.github.io/revision/">Explore project →</a></article>
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 4h18v13H9l-6 4z M7 10l3 3 6-6"/></svg><h3>Feedback Hub</h3><p>Structured assessment reflection and targeted improvement activities.</p><a href="https://kingsnortongirls.github.io/feedback/">Explore project →</a></article>
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 4h18v16H3z M7 9l3 3-3 3 M13 15h4"/></svg><h3>Teaching Tools</h3><p>Interactive demonstrations of binary, algorithms, programming and other computing concepts.</p><a href="https://kingsnortongirls.github.io/teachingtools/">Explore project →</a></article>
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M4 3h11l5 5v13H4z M14 3v6h6 M8 13h8 M8 17h5"/></svg><h3>Lost Learning</h3><p>Lesson-specific explanations, worked examples and self-marking checks for catching up.</p><a href="https://kingsnortongirls.github.io/lostlearning/">Explore project →</a></article>
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M5 3h14v18H5z M8 8h8 M8 12h8 M8 16h5"/></svg><h3>Cover Lesson Hub</h3><p>Standalone KS3 lessons with guided tasks, research links and printable evidence.</p><a href="https://kingsnortongirls.github.io/cover/">Explore project →</a></article>
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M20 7v5h-5 M4 17v-5h5 M5 8a8 8 0 0 1 15 4 M19 16a8 8 0 0 1-15-4"/></svg><h3>Renewal Room</h3><p>Structured independent Computer Science lessons with interactive and written activities.</p><a href="https://kingsnortongirls.github.io/csrenewalroom/">Explore project →</a></article>
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M2 9l10-6 10 6-10 6z M6 12v5q6 5 12 0v-5"/></svg><h3>CPD &amp; How-to Hub</h3><p>Practical professional development guides covering teaching, digital tools and online safety.</p><a href="https://kingsnortongirls.github.io/cpd/">Explore project →</a></article>
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 3h18v18H3z M9 3v18 M15 3v18 M3 9h18 M3 15h18"/></svg><h3>Seating Plans</h3><p>A browser-based classroom organisation tool designed around local processing and encrypted backups.</p><a href="https://kingsnortongirls.github.io/seatingplans/">Explore project →</a></article>
 </div>
+</section>
+<section class="lab-section" aria-labelledby="personal-projects"><h2 id="personal-projects">Personal projects</h2><p>Experiments in independent publishing and the web.</p><div class="lab-grid">
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 9h20M8 4v5M12 14h6m-3-3v6"/></svg><h3>The Other Tab</h3><p>This digital notebook, built using Jekyll and GitHub Pages, with custom appearance settings and a lightweight publishing workflow.</p><a href="/articles/building-a-personal-blog-for-the-price-of-a-domain-name/">Read about the project →</a><a href="https://github.com/jrewillis-bit/theothertab">Browse source code →</a></article>
+<article class="lab-card"><svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 3h12l4 4v14H4z M15 3v5h5 M8 13h8 M8 17h5"/></svg><h3>The Other Tab Studio</h3><p>A private local publishing workspace for preparing articles, notes and photographs for this website.</p><p>Personal project · not publicly distributed</p></article>
+</div></section>
+<p class="lab-note">This is a personal showcase. School resources are hosted separately; no pupil records or internal school documents are published here.</p>
