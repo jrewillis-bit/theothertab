@@ -5,7 +5,7 @@ category: "Minimalism"
 description: "Even after decluttering, the urge to buy doesn’t disappear. That was one of the biggest surprises for me. I assumed that once the house was calmer and the "
 tags: ["buying less","Clutter","Declutter","decluttering","impulse buying","intentional living","minimalism","no-buy","simple living","spending habits"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/file_00000000d4d8722fac8c1723304ebf90.png"
+cover: "/assets/images/decluttered-bytes/2026/01/file_00000000d4d8722fac8c1723304ebf90.png"
 cover_alt: "What I Do When I Feel the Urge to Buy Again"
 ---
 

@@ -5,7 +5,7 @@ category: "Minimalism"
 description: "I was first introduced to the idea of a no-buy through Cait Flanders and her book The Year of Less. What struck me immediately was how calm and grounded he"
 tags: ["borrow","borrow dont buy","cait flanders","Clutter","consumption habits","Declutter","decluttering","decluttering mindset","Everyday minimalism","financial mindfulness","habit change","intentional living","library audiobook","lifestyle reset","mindful spending","no buy month","simple living","spending awareness","the year of less"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/file_000000002acc7246977a6b3dc919f3c4.png"
+cover: "/assets/images/decluttered-bytes/2026/01/file_000000002acc7246977a6b3dc919f3c4.png"
 cover_alt: "Trying a No-Buy Month (Inspired by Cait Flanders)"
 ---
 

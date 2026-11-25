@@ -5,7 +5,7 @@ category: "Digital Living"
 description: "For years, social media felt like an open window to the world — a place to share photos, stay connected, and keep up with what everyone else was doing. But"
 tags: ["Clutter","Leaving","life","Social media","social-media"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/11/IMG_0351.jpeg"
+cover: "/assets/images/decluttered-bytes/2025/11/IMG_0351.jpeg"
 cover_alt: "Why I Left Social Media (and What I Missed Less Than Expected)"
 ---
 

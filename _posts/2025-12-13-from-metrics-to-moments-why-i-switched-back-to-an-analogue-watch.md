@@ -5,7 +5,7 @@ category: "Digital Living"
 description: "There was a time when I couldn’t imagine a day without my wrist buzzing. A nudge to stand. A reminder to breathe. A congratulatory vibration for hitting 10"
 tags: ["analogue","digital","fitness","life","simplicity","smartwatch","trackers"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/11/1000058812.jpg"
+cover: "/assets/images/decluttered-bytes/2025/11/1000058812.jpg"
 cover_alt: "⌚️ From Metrics to Moments: Why I Switched Back to an Analogue Watch"
 ---
 

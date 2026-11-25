@@ -5,7 +5,7 @@ category: "Personal Finance"
 description: "I’m Investing £5 Per Day for a Year (Instead of Buying Coffee) For the next 365 days, I’m investing £5 every single day . Not because I’m new to investing."
 tags: ["auto invest","automation","compound interest","declutteredbytes","financial independence","focus","intentional","investing","life","long term investing","Money Habits","personal finance","s&p 500","stocks and shares isa","trading 212","vanguard"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/02/file_00000000e76872438af56d94a0e088dc.png"
+cover: "/assets/images/decluttered-bytes/2026/02/file_00000000e76872438af56d94a0e088dc.png"
 cover_alt: "I’m Investing £5 Per Day for a Year (Instead of Buying Coffee)"
 ---
 

@@ -5,7 +5,7 @@ category: "Technology"
 description: "Decluttering your digital life, one swipe at a time. Modern smartphones are overflowing with noise — icons, badges, folders, widgets, notifications. Every "
 tags: ["android","Clutter","Declutter","decluttering","digital","digital minimalism","intentional","Niagara launcher","smart phone"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/11/file_00000000993471f4a3d54f79509ed84a.png"
+cover: "/assets/images/decluttered-bytes/2025/11/file_00000000993471f4a3d54f79509ed84a.png"
 cover_alt: "Using Niagara Launcher to Reduce Distractions"
 ---
 

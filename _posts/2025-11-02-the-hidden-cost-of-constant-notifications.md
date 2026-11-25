@@ -5,7 +5,7 @@ category: "Digital Living"
 description: "I used to think notifications helped me stay connected. They were small, useful nudges — a text from a friend, an update from work, a reminder that somethi"
 tags: ["focus","life","Notifications","Real cost","simplicity","Smartphone","social-media","writing"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/11/IMG_0353.jpeg"
+cover: "/assets/images/decluttered-bytes/2025/11/IMG_0353.jpeg"
 cover_alt: "The Hidden Cost of Constant Notifications"
 ---
 

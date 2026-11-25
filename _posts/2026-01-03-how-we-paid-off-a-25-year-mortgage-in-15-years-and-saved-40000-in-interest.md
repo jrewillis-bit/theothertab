@@ -5,7 +5,7 @@ category: "Personal Finance"
 description: "Paying off a mortgage early is one of the most powerful financial decisions a household can make — not because it’s glamorous, but because it quietly remov"
 tags: ["borrow","budgeting tips","financial independence","focus","life","money management","mortgage overpayments","personal finance","SIPP","UK savings"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/file_000000005b5472439ec2263b59d9e647.png"
+cover: "/assets/images/decluttered-bytes/2026/01/file_000000005b5472439ec2263b59d9e647.png"
 cover_alt: "How We Paid Off a 25-Year Mortgage in 15 Years (and Saved £40,000 in Interest)"
 ---
 

@@ -5,7 +5,7 @@ category: "Sustainability"
 description: "There’s a certain freedom in driving — at least that’s what we’re told. But somewhere between insurance renewals, MOTs, parking charges, and the endless st"
 tags: ["bicycle","Clutter","commuting","Declutter","decluttering","ebike","intentional","mindspace"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/11/1000058760.jpg"
+cover: "/assets/images/decluttered-bytes/2025/11/1000058760.jpg"
 cover_alt: "Trading Four Wheels for Two: My Journey Toward a Simpler Bike Life"
 ---
 

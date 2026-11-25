@@ -5,7 +5,7 @@ category: "Technology"
 description: "For years, I relied on Spotify like most people—instant access to millions of tracks, curated playlists, and zero effort. But there has always been a trade"
 tags: ["digital ownership","finamp","flac","home server","jellyfin","library","linux","lossless audio","media server","music server","nas","self-hosting","spotify alternative","streaming"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/03/file_000000006d387246bbfbd602b475e9a9.png"
+cover: "/assets/images/decluttered-bytes/2026/03/file_000000006d387246bbfbd602b475e9a9.png"
 cover_alt: "Ditching Spotify: Building My Own FLAC Music Library with Jellyfin & Finamp"
 ---
 

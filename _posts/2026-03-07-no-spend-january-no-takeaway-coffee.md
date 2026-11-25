@@ -5,7 +5,7 @@ category: "Personal Finance"
 description: "No-Spend January: I Quit Takeaway Coffee (Here’s What Actually Happened) At the start of January, I picked one simple rule: No buying takeaway coffee. At a"
 tags: ["Everyday Spending","Financial Awareness","Frugal Living","intentional living","life","Mindset","Money Habits","No Spend January","personal finance","Saving Money","spending awareness","UK Lifestyle"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/02/file_00000000835871f4afb08e3006342ee8.png"
+cover: "/assets/images/decluttered-bytes/2026/02/file_00000000835871f4afb08e3006342ee8.png"
 cover_alt: "No-Spend January: Takeaway Coffee"
 ---
 

@@ -5,7 +5,7 @@ category: "Minimalism"
 description: "We are told, relentlessly, that the solution to mess is better organisation. More shelves. Smarter boxes. Colour-coded folders. Apps to track the apps. Sys"
 tags: ["attention economy","Clutter","cognitive load","Declutter","decluttering","digital","digital minimalism","email","intentional living","limits not tools","mental clutter","minimalism","modern life","organisation","productivity culture","simple living","slow productivity","systems thinking"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/1000061436.jpg"
+cover: "/assets/images/decluttered-bytes/2026/01/1000061436.jpg"
 cover_alt: "Organisation Is the Path That Leads to Clutter"
 ---
 

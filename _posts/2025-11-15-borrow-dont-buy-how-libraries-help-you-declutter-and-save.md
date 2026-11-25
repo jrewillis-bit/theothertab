@@ -5,7 +5,7 @@ category: "Sustainability"
 description: "In a world that constantly tells us to own more, there’s something refreshingly simple about borrowing. I’ve always believed that minimalism isn’t just abo"
 tags: ["borrow","Clutter","Declutter","decluttering","digital","Dudley","library","reuse","sustainability","sustainably"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/11/file_00000000ded4720a9fa04d81c004ecc6.png"
+cover: "/assets/images/decluttered-bytes/2025/11/file_00000000ded4720a9fa04d81c004ecc6.png"
 cover_alt: "Borrow, Don’t Buy: How Libraries Help You Declutter and Save"
 ---
 

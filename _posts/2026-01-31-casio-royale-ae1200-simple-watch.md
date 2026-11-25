@@ -5,7 +5,7 @@ category: "Technology"
 description: "In a world of smartwatches that demand constant charging, updates, and attention, there’s something quietly refreshing about a watch that just… works. For "
 tags: ["casio ae-1200","casio royale","decluttered living","digital","digital minimalism","digital watch","email","everyday carry","intentional technology","life","low tech","retro tech","simple living"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/file_0000000008e4720abe51168a461e7708.png"
+cover: "/assets/images/decluttered-bytes/2026/01/file_0000000008e4720abe51168a461e7708.png"
 cover_alt: "Why I’m Perfectly Happy With My Casio Royale (AE-1200)"
 ---
 

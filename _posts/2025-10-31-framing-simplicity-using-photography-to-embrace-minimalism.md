@@ -5,7 +5,7 @@ category: "Photography"
 description: "“Photography is the story I fail to put into words.” - Destin Sparks Introduction Minimalism isn’t only about what we own — it’s about how we see. For me, "
 tags: ["Clutter","focus","life","simplicity"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/10/25FC09D9-0E98-477F-AC12-2568407956ED.png"
+cover: "/assets/images/decluttered-bytes/2025/10/25FC09D9-0E98-477F-AC12-2568407956ED.png"
 cover_alt: "Framing Simplicity: Using Photography to Embrace Minimalism"
 ---
 

@@ -5,7 +5,7 @@ category: "Minimalism"
 description: "Most clutter isn’t caused by too much stuff. It’s caused by half-decisions . Paper moved from one surface to another. Emails read but left “to deal with”. "
 tags: ["Clutter","decluttering","email","email management","life","mental load","minimalism","OHIO","only handle it once","paperwork","productivity","simple living"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/file_000000001b74722fb293d5844d83194c.png"
+cover: "/assets/images/decluttered-bytes/2026/01/file_000000001b74722fb293d5844d83194c.png"
 cover_alt: "The OHIO Method: Only Handle It Once"
 ---
 

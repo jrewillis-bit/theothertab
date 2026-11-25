@@ -5,7 +5,7 @@ category: "Personal Finance"
 description: "Back in February, I set myself a simple challenge. Instead of spending £5 on little things that are quickly forgotten, I would invest it every single day. "
 tags: ["Clutter","Compound Growth","Daily Investing","Declutter","decluttered bytes","financial independence","index funds","investing","Investing for Beginners","long term investing","minimalism","Money Habits","Passive Investing","personal finance","Saving Money","trading 212","Wealth Building"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/07/file_00000000f16471f4a61983eadc5bc2ac.png"
+cover: "/assets/images/decluttered-bytes/2026/07/file_00000000f16471f4a61983eadc5bc2ac.png"
 cover_alt: "Investing £5 Per Day: 131 Days In"
 ---
 
@@ -15,7 +15,7 @@ No stock picking. No trying to predict the market. Just £5 a day into a global 
 
 It's now been <strong>131 days</strong>, so here's how it's going.
 
-<img src="https://declutteredbytes.blog/wp-content/uploads/2026/07/screenshot_2026-07-04-17-56-44-513_com8776365921398695230.jpg" class="wp-image-531 alignnone size-full" width="1280" height="1082" data-temp-aztec-id="b266242e-4a50-4681-9d08-53b8bb586171">
+<img src="/assets/images/decluttered-bytes/2026/07/screenshot_2026-07-04-17-56-44-513_com8776365921398695230.jpg" class="wp-image-531 alignnone size-full" width="1280" height="1082" data-temp-aztec-id="b266242e-4a50-4681-9d08-53b8bb586171">
 <h3>The numbers</h3>
 <ul>
 	<li><strong>Days invested:</strong> 131</li>

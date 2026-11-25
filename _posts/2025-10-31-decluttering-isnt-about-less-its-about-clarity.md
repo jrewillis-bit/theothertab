@@ -5,7 +5,7 @@ category: "Minimalism"
 description: "“The question of what you want to own is actually the question of how you want to live your life.” -Marie Kondo Introduction Decluttering is often seen as "
 tags: ["Clutter","decluttering","focus","life","simplicity"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/10/530BB6C2-57CD-4E48-BF34-258CFA0899DB.png"
+cover: "/assets/images/decluttered-bytes/2025/10/530BB6C2-57CD-4E48-BF34-258CFA0899DB.png"
 cover_alt: "Decluttering Isn’t About Less — It’s About Clarity"
 ---
 

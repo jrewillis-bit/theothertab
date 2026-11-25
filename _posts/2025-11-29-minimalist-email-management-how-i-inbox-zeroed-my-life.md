@@ -5,7 +5,7 @@ category: "Digital Living"
 description: "Because your inbox shouldn’t decide how you spend your day. There was a time when I thought keeping up with email meant being productive. If I was respondi"
 tags: ["Clutter","decluttering","digital","digital minimalism","email","focus","inbox zero"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/11/file_00000000fe10720a938365d96587c8f3.png"
+cover: "/assets/images/decluttered-bytes/2025/11/file_00000000fe10720a938365d96587c8f3.png"
 cover_alt: "Minimalist Email Management: How I Inbox-Zeroed My Life"
 ---
 

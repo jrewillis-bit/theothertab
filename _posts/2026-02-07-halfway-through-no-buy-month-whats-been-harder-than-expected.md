@@ -5,7 +5,7 @@ category: "Personal Finance"
 description: "I’m halfway through a no-buy January. The rule was clear: only essential spending, repairs, or genuine replacements for broken or worn-out items. No impuls"
 tags: ["consumption awareness","decluttering money","intentional living","mindful spending","minimalism","no-buy","no-buy challenge","personal finance habits","repair over replace","subscription spending","writing"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/file_0000000058bc720aa8c1728d06f97459.png"
+cover: "/assets/images/decluttered-bytes/2026/01/file_0000000058bc720aa8c1728d06f97459.png"
 cover_alt: "Halfway Through a No-Buy Month: What’s Been Harder Than Expected"
 ---
 

@@ -5,7 +5,7 @@ category: "Film & Media"
 description: "FICO – My Stuff is a quietly unsettling documentary that turns its lens on something most of us rarely question: why we own what we own. At first glance, t"
 tags: ["attention and identity","Clutter","consumerism","documentary film","film review","intentional living","life","materialism","minimalism","modern life","ownership","personal possessions","slow living"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/1000061440.jpg"
+cover: "/assets/images/decluttered-bytes/2026/01/1000061440.jpg"
 cover_alt: "Film review: \"Fico : My Stuff:"
 ---
 
@@ -13,7 +13,7 @@ cover_alt: "Film review: \"Fico : My Stuff:"
 
 
 
-<figure class="wp-block-image size-large"><img src="https://declutteredbytes.blog/wp-content/uploads/2026/01/images281292821385418486353423.jpg" alt="" class="wp-image-319"/></figure>
+<figure class="wp-block-image size-large"><img src="/assets/images/decluttered-bytes/2026/01/images281292821385418486353423.jpg" alt="" class="wp-image-319"/></figure>
 
 
 
@@ -21,7 +21,7 @@ cover_alt: "Film review: \"Fico : My Stuff:"
 
 
 
-<figure class="wp-block-image size-large"><img src="https://declutteredbytes.blog/wp-content/uploads/2026/01/47401dc1-0001-0004-0000-000000814969_w1200_r2_fpx50837302223940767534-1024x512.jpg" alt="" class="wp-image-320"/><figcaption class="wp-element-caption">First item to bring back. A coat.</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="/assets/images/decluttered-bytes/2026/01/47401dc1-0001-0004-0000-000000814969_w1200_r2_fpx50837302223940767534-1024x512.jpg" alt="" class="wp-image-320"/><figcaption class="wp-element-caption">First item to bring back. A coat.</figcaption></figure>
 
 
 
@@ -29,7 +29,7 @@ cover_alt: "Film review: \"Fico : My Stuff:"
 
 
 
-<figure class="wp-block-image size-large"><img src="https://declutteredbytes.blog/wp-content/uploads/2026/01/images4835496971143022395.jpeg" alt="" class="wp-image-321"/><figcaption class="wp-element-caption">Picking items that really matter is harder than you 🤔</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="/assets/images/decluttered-bytes/2026/01/images4835496971143022395.jpeg" alt="" class="wp-image-321"/><figcaption class="wp-element-caption">Picking items that really matter is harder than you 🤔</figcaption></figure>
 
 
 

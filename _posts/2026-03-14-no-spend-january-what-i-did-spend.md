@@ -5,7 +5,7 @@ category: "Personal Finance"
 description: "No-Spend January: What I Did Spend (And Why That Matters More) When people hear “No-Spend January”, they imagine zero spending, monk mode, and surviving on"
 tags: ["Everyday Spending","Frugal Living","intentional","Intentional Spending","life","Mindful Money","minimalism","Money Habits","No Spend January","personal finance","repair over replace","UK Lifestyle"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/02/file_00000000824471f49b08c45471f38825.png"
+cover: "/assets/images/decluttered-bytes/2026/02/file_00000000824471f49b08c45471f38825.png"
 cover_alt: "No-Spend January: What I Did"
 ---
 

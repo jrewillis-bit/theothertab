@@ -5,7 +5,7 @@ category: "Digital Living"
 description: "“The greatest step towards a life of simplicity is to learn to let go.” -Steve Maraboli Introduction A few months ago, I switched off almost everything on "
 tags: ["decluttering","focus","life","simplicity","Smartphone"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/10/40EE4313-B8CD-4779-A02C-EB841353FD49.png"
+cover: "/assets/images/decluttered-bytes/2025/10/40EE4313-B8CD-4779-A02C-EB841353FD49.png"
 cover_alt: "From Smartphone to Smart-Enough: The Art of Going Dumb"
 ---
 

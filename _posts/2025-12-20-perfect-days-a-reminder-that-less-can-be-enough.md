@@ -5,7 +5,7 @@ category: "Film & Media"
 description: "I didn’t expect a film about a Japanese toilet cleaner to linger with me for days afterwards. But Perfect Days did exactly that — not through drama or big "
 tags: ["Clutter","Declutter","decluttering","digital","Everyday minimalism","intentional","Japanese","perfect days"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/12/100006052528129.jpg"
+cover: "/assets/images/decluttered-bytes/2025/12/100006052528129.jpg"
 cover_alt: "Perfect Days: A Reminder That Less Can Be Enough"
 ---
 

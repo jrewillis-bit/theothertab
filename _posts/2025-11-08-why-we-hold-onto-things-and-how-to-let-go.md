@@ -5,7 +5,7 @@ category: "Minimalism"
 description: "There’s a certain comfort in keeping things — old gifts, broken gadgets, piles of paper we promise to sort “one day.” They sit quietly in drawers and cupbo"
 tags: ["Clutter","Declutter","decluttering","Difficult decisions","Letting go","Memories"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/11/IMG_0355.jpeg"
+cover: "/assets/images/decluttered-bytes/2025/11/IMG_0355.jpeg"
 cover_alt: "Why We Hold Onto Things (and How to Let Go)"
 ---
 

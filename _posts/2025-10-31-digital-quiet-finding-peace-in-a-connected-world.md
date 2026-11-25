@@ -5,7 +5,7 @@ category: "Digital Living"
 description: "“Almost everything will work again if you unplug it for a few minutes — including you.” — Anne Lamott Introduction It started with a simple thought: I hadn"
 tags: ["Clutter","decluttering","focus","life","simplicity"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2025/10/30a24a85-2352-48dd-addc-1df8061b02ca.png"
+cover: "/assets/images/decluttered-bytes/2025/10/30a24a85-2352-48dd-addc-1df8061b02ca.png"
 cover_alt: "Digital Quiet: Finding Peace in a Connected World"
 ---
 

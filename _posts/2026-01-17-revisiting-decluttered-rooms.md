@@ -5,7 +5,7 @@ category: "Minimalism"
 description: "Decluttering is often sold as a dramatic, once-and-done event. A big weekend, a stack of bin bags, before-and-after photos and the promise of a calmer life"
 tags: ["Clutter","clutter free home","Declutter","declutter your study","decluttering","decluttering after organising","decluttering habits","decluttering maintenance","decluttering mindset","decluttering tips","digital minimalism","functional spaces","guest room ideas","home office declutter","home organisation","how to stop clutter coming back","intentional living","Letting go","life","maintaining a tidy home","minimalist home","multipurpose rooms","one touch rule","reducing storage","revisiting decluttered rooms","simple living","study decluttering","three box method"]
 featured: false
-cover: "https://declutteredbytes.blog/wp-content/uploads/2026/01/file_00000000832071f4949c135861d55ae1.png"
+cover: "/assets/images/decluttered-bytes/2026/01/file_00000000832071f4949c135861d55ae1.png"
 cover_alt: "Decluttering Isn’t a One-Off: Why You Need to Revisit Your Rooms"
 ---
 
