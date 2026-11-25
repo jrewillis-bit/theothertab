@@ -1,5 +1,6 @@
 ---
 layout: post
+featured: true
 title: "Why my £235 second-hand ThinkPad makes more sense than a new laptop"
 category: Technology
 description: "Buying a used Lenovo ThinkPad T14s Gen 2, running Linux Mint and questioning whether we really need the latest technology."
