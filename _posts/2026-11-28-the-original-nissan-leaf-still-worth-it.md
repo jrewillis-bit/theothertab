@@ -50,8 +50,6 @@ I charge at home on Intelligent Octopus Go, at an overnight rate of 8p per kWh. 
 
 That means my commute uses around 5.3 to 6kWh of energy, costing approximately 43 to 48p before charging losses.
 
-![Infographic showing the daily and annual electricity costs of the Leaf commute](/assets/images/articles/nissan-leaf-still-worth-it/commuting.svg)
-
 | Driving | Estimated electricity cost |
 |---|---:|
 | 24-mile commute | 43–48p |
