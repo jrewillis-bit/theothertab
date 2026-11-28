@@ -25,7 +25,7 @@ Before the Leaf, I owned a 2017 Citroën C1. I paid £4,200 for it and kept it f
 
 That is just £200 in depreciation over four years, excluding the other costs of ownership. I doubt many new cars could come close to that.
 
-The Leaf cost £6,000. With the C1 taken in part exchange, the cash difference was £2,000. For that I moved into a larger, quieter, more comfortable automatic car, in the top-of-the-range Tekna trim.
+I bought the Leaf in December 2024 at 42,000 miles for £6,000. With the C1 taken in part exchange, the cash difference was £2,000. For that I moved into a larger, quieter, more comfortable automatic car, in the top-of-the-range Tekna trim.
 
 | | Amount |
 |---|---:|
@@ -125,6 +125,38 @@ An older EV is still an older car. Tyres, suspension, brakes and other mechanica
 On my Leaf I have replaced front lower suspension arms on both sides and the drop links, and uneven front tyre wear has also been something to investigate. These are reminders that buying an EV does not mean escaping the ordinary realities of car ownership.
 
 There is no engine oil or exhaust system to maintain, but I would still budget for repairs and inspect an older Leaf carefully before buying.
+
+## Two years on: are used Leafs even better value now?
+
+I bought my Leaf in December 2024 for £6,000, with 42,000 miles on the clock. As of November 2026 it has covered 58,000 miles, meaning I have put approximately 16,000 miles on it in almost two years, or roughly 8,000 miles a year.
+
+That makes this more than a first impressions review. The car has had a substantial amount of everyday use.
+
+The used market has moved on since I bought mine. Checking UK advertised prices on 28 November 2026, I found these examples:
+
+| 2017 Nissan Leaf | Mileage | Advertised price |
+|---|---:|---:|
+| [30kWh Tekna](https://www.pistonheads.com/buy/nissan/leaf/year/2017) | 58,560 | £5,290 |
+| [30kWh Tekna](https://carslink.ai/cars/nissan-leaf-2017-a2bf02b2) | 54,385 | £4,988 |
+| [Tekna](https://askcar.co.uk/car/nissan-leaf-2017-8c6bcf836c56?p=5499) | 33,818 | £5,499 |
+
+The Carslink example was indexed around two months earlier, so it is an indicative recent asking price rather than confirmed live stock. Across the wider 2017 Leaf market, including different trims and battery variants, [AskCar](https://askcar.co.uk/used-cars/nissan/leaf/2017) reported a median asking price of £5,000 in late November 2026. [AutoUncle](https://www.autouncle.co.uk/en-gb/used-cars/Nissan/Leaf/y-2017) reported a typical asking-price range of approximately £3,357 to £6,192.
+
+Based on those comparisons, £5,000 is a reasonable illustrative dealer-retail benchmark for a car like mine, rather than a formal valuation. That would represent around £1,000 of depreciation against my original purchase price, or approximately £500 a year and 6.25p per mile. My actual resale or part-exchange value could be lower, particularly depending on battery condition, service history and bodywork.
+
+At my usual efficiency and home electricity tariff, the energy cost is around 1.8–2p per mile before charging losses. Add the illustrative retail depreciation and that is roughly 8p per mile for those two costs combined. It is not a total ownership cost: insurance, tax, tyres, repairs and charging losses are additional.
+
+### Would I spend £5,000 on one today?
+
+For someone looking for a local commuter with home charging, a sound 30kWh Leaf around £4,500–£5,300 is an attractive proposition. It is worth comparing it with a similarly priced petrol hatchback, rather than only with brand-new electric cars.
+
+There is a catch, though. Newer used EVs are also becoming more affordable. The [current Auto Trader listings](https://www.autotrader.co.uk/cars/used/nissan/leaf/2017) include a 40kWh Tekna advertised at £6,890, so I would also search specifically for second-generation 40kWh models before committing to an older car. A relatively modest extra outlay might buy a useful amount of range, although the second-generation Leaf also uses CHAdeMO and lacks active liquid battery cooling.
+
+At this age, battery condition matters more to me than finding the lowest mileage or the cheapest advert. I would rather buy a well-maintained car with a healthy battery at 60,000 miles than a lower-mileage example with a weak battery.
+
+The original Leaf has arguably become a more compelling budget EV as its purchase price has fallen, provided its limitations suit the buyer. It is no longer enough simply to be cheap: it also has to make sense against the increasingly affordable newer alternatives.
+
+*Market figures are a dated snapshot of advertised prices, not completed sales or guaranteed valuations.*
 
 ## Would I buy one today?
 
