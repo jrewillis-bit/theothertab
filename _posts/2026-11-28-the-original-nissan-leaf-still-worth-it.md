@@ -79,6 +79,35 @@ The Leaf lacks active liquid cooling for the traction battery, and repeated rapi
 
 *Rear view of the same reference car. [Makizox / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2017_Nissan_Leaf_Tekna_30kWh_Rear.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
+## LeafSpy: looking beyond the dashboard
+
+One of the most useful tools for anyone considering an older Nissan Leaf is [LeafSpy Pro](https://leafspy.com/). It is available for [Android](https://play.google.com/store/apps/details?id=com.Turbo3.Leaf_Spy_Pro) and [iPhone](https://apps.apple.com/gb/app/leafspy-pro/id967376861).
+
+The app connects to the car through a compatible OBD-II diagnostic dongle, plugged into the diagnostic socket beneath the dashboard. With the car switched on and safely parked, the phone connects to the adapter and LeafSpy can display information from the vehicle's battery management system. Check the developer's adapter compatibility guidance before buying: not every inexpensive ELM327 dongle works, and iPhone users need a supported Bluetooth Low Energy or Wi-Fi adapter.
+
+![Official LeafSpy Pro screenshot showing battery health and individual cell-pair voltages](https://play-lh.googleusercontent.com/PCrVMhxBWo6r07J1mQ13htlD66_HCtM6WgxhWOBzsxEiyhkjpQi51_rmyJ-dvnjjsVa7JSE7m1zD_ZzCqSGoTTo=w526-h296)
+
+*Example battery screen from Turbo3's [official Google Play listing](https://play.google.com/store/apps/details?id=com.Turbo3.Leaf_Spy_Pro). The readings are from an example vehicle, not my own Leaf.*
+
+The most useful readings when assessing a used Leaf include:
+
+- **State of health (SOH):** the battery management system's estimate of capacity relative to its original reference condition. My car is currently around 78%.
+- **State of charge (SOC):** how charged the battery currently is, rather than how much capacity it has lost.
+- **Cell-pair voltages:** the graph displays all 96 pairs, making it easier to spot an unusually low reading or excessive imbalance. The difference between the highest and lowest voltage is displayed in millivolts (mV).
+- **Battery temperatures:** useful for understanding how the passively cooled battery responds to driving and charging.
+- **Charge counters:** the number of rapid and AC charging connections, which provide context but do not independently establish battery condition.
+- **Diagnostic trouble codes:** the Pro version can read faults from vehicle control units, useful when investigating a problem.
+
+![Official LeafSpy Pro screenshot showing remaining energy, estimated range and battery temperature](https://play-lh.googleusercontent.com/2gb6Q_tvVSBae9b2dyACYQk7bfrKUMYtAbxgKhBFqxyX5KLvmvQQ_1U8vcVpyKDqeu4eOOFKjkiH8AERrWY1Vw=w526-h296)
+
+*Example energy and range screen. Screenshot: Turbo3, official Google Play listing.*
+
+I would recommend checking the battery with LeafSpy before buying a used Leaf, with the owner's permission. A single reading at a high state of charge is not the whole story: weak cells may become more apparent at a lower charge level or under normal driving load. A passenger can monitor the readings during a test drive, or the data can be logged for later review.
+
+The 30kWh model also had a battery-controller software update that corrected inaccurate capacity reporting on affected vehicles, so it is worth checking the update history with Nissan. LeafSpy is a useful diagnostic aid, not a guarantee of battery condition or remaining life. I would leave unfamiliar service settings alone, avoid clearing fault codes before investigating them and unplug the adapter when finished.
+
+For more information, see the [LeafSpy website](https://leafspy.com/) and the [official app listing](https://play.google.com/store/apps/details?id=com.Turbo3.Leaf_Spy_Pro).
+
 ## Where the age shows
 
 The Leaf uses CHAdeMO for rapid charging, rather than the CCS standard used by most newer EVs in the UK. Charger availability on a particular route is something I would check before travelling. It is not a car I would buy specifically for frequent long motorway journeys.
