@@ -7,8 +7,8 @@ category: Technology
 tags: [electric vehicles, Nissan Leaf, motoring, used cars, still worth it]
 series: "Still Worth It?"
 series_part: 1
-cover: /assets/images/articles/nissan-leaf-still-worth-it/cover.svg
-cover_alt: "Editorial illustration of a bright-red first-generation Nissan Leaf"
+cover: https://upload.wikimedia.org/wikipedia/commons/6/6c/2017_Nissan_Leaf_Tekna_30kWh_Front.jpg
+cover_alt: "Bright-red 2017 Nissan Leaf Tekna 30kWh photographed in Warwick"
 ---
 
 There is a tendency to judge electric cars by how far they can travel on a single charge, how quickly they can recharge and how much technology they can squeeze into the dashboard. All useful things, but none necessarily make a car better suited to the journey I actually make every day.
@@ -17,7 +17,7 @@ My car is a bright-red, 2017 Nissan Leaf Tekna with the 30kWh battery. It is the
 
 Yet for my 24-mile daily commute, often in heavy traffic, it makes an enormous amount of sense.
 
-*The cover is an illustration of the model, not a photograph of my own car.*
+*Cover photograph: a 2017 Nissan Leaf Tekna 30kWh in the same bright-red colour as mine. [Makizox / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2017_Nissan_Leaf_Tekna_30kWh_Front.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Reference photograph, not my own vehicle.*
 
 ## From a Citroën C1 to a Leaf
 
@@ -76,6 +76,10 @@ But my typical commute uses less than 6kWh. The battery does not need to be anyw
 This is the distinction I think gets lost in discussions about old EVs. A battery that is no longer suitable for somebody's long-distance commute can still have years of useful service in a car that mainly travels locally.
 
 The Leaf lacks active liquid cooling for the traction battery, and repeated rapid charging or sustained hot conditions can be a disadvantage. When buying one, I would want to see battery health information, check for unusually weak cells where possible and test the car on a representative journey.
+
+![Rear three-quarter view of a bright-red 2017 Nissan Leaf Tekna 30kWh](https://upload.wikimedia.org/wikipedia/commons/f/fa/2017_Nissan_Leaf_Tekna_30kWh_Rear.jpg)
+
+*Rear view of the same reference car. [Makizox / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2017_Nissan_Leaf_Tekna_30kWh_Rear.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ## Where the age shows
 
