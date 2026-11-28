@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<section class="hero"><div><p class="eyebrow">An independent personal blog</p><h1>Life beyond the main tab<span class="accent">.</span></h1><p class="intro">Thoughts on technology, living with less, gaming, education, photography and everything in between.</p></div><a class="button" href="{{ '/archive/' | relative_url }}">Explore articles →</a></section>
+<div class="edition-home"><section class="hero"><div><p class="eyebrow">An independent personal blog</p><h1>Life beyond the main tab<span class="accent">.</span></h1><p class="intro">Thoughts on technology, living with less, gaming, education, photography and everything in between.</p></div><a class="button" href="{{ '/archive/' | relative_url }}">Explore articles →</a></section>
 {% assign featured_slugs = 'my-235-thinkpad-running-linux-mint|film-review-fico-my-stuff|the-hidden-cost-of-constant-notifications' | split: '|' %}
 {% assign featured_posts = '' | split: ',' %}
 {% for slug in featured_slugs %}
@@ -15,70 +15,16 @@ title: Home
   {% endfor %}
 {% endfor %}
 {% if featured_posts.size > 0 %}
-<section class="featured-section featured-carousel" aria-labelledby="featured-heading" aria-roledescription="carousel">
-  <h2 id="featured-heading" class="eyebrow">Featured articles</h2>
-  <div class="featured-viewport" id="featured-viewport">
-    {% for post in featured_posts %}
-    <div class="featured-slide" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ featured_posts.size }}"{% unless forloop.first %} hidden{% endunless %}>
-      <a class="featured-card" href="{{ post.url | relative_url }}">
-        {% if post.cover %}<img src="{{ post.cover | relative_url }}" alt=""{% unless forloop.first %} loading="lazy"{% endunless %}>{% endif %}
-        <div><p class="eyebrow">{{ post.category | escape }} · {{ post.date | date: '%-d %B %Y' }}</p><h2>{{ post.title | escape }}</h2><p>{{ post.description | default: post.excerpt | strip_html | escape }}</p><span class="featured-read">Read article →</span></div>
-      </a>
-    </div>
-    {% endfor %}
-  </div>
-  {% if featured_posts.size > 1 %}
-  <div class="featured-controls" hidden>
-    <button type="button" id="featured-prev" aria-label="Previous featured article" aria-controls="featured-viewport">←</button>
-    <div class="featured-dots" role="group" aria-label="Choose featured article">
-      {% for post in featured_posts %}<button type="button" class="featured-dot" data-slide="{{ forloop.index0 }}" aria-label="Show {{ post.title | escape }}" aria-current="{% if forloop.first %}true{% else %}false{% endif %}"></button>{% endfor %}
-    </div>
-    <button type="button" id="featured-next" aria-label="Next featured article" aria-controls="featured-viewport">→</button>
-    <button type="button" id="featured-pause" aria-label="Pause automatic rotation" aria-controls="featured-viewport">Pause</button>
-  </div>
-  {% endif %}
-</section>
-<style>
-.featured-viewport{display:grid}
-.featured-slide{grid-area:1/1;min-width:0;display:flex}
-.featured-slide[hidden]{display:flex!important;visibility:hidden;pointer-events:none}
-.featured-slide .featured-card{width:100%;box-sizing:border-box}
-.featured-slide:not([hidden]){animation:featured-in .4s ease-out}
-.featured-controls{display:flex;align-items:center;justify-content:center;gap:10px;margin:12px 0 0}
-.featured-controls[hidden]{display:none}
-.featured-controls button{font:inherit;font-size:13px;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:6px;min-width:36px;min-height:36px;cursor:pointer}
-.featured-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-.featured-dots{display:flex;align-items:center;gap:3px}
-.featured-dots .featured-dot{width:30px;min-width:30px;border:0;background:transparent;position:relative}
-.featured-dot:after{content:'';position:absolute;inset:13px 10px;border-radius:50%;background:var(--muted);opacity:.45}
-.featured-dot[aria-current=true]:after{background:var(--accent);opacity:1}
-#featured-pause{padding:0 12px}
-@keyframes featured-in{from{opacity:.3;transform:translateX(7px)}to{opacity:1;transform:translateX(0)}}
-@media(prefers-reduced-motion:reduce){.featured-slide:not([hidden]){animation:none}}
-</style>
-<script>
-(()=>{
-const root=document.querySelector('.featured-carousel');if(!root)return;
-const slides=[...root.querySelectorAll('.featured-slide')],controls=root.querySelector('.featured-controls');if(slides.length<2||!controls)return;
-const dots=[...root.querySelectorAll('.featured-dot')],pause=root.querySelector('#featured-pause'),motion=matchMedia('(prefers-reduced-motion: reduce)');
-let index=0,timer=null,paused=motion.matches,hover=false,focus=false;
-function show(i){index=(i+slides.length)%slides.length;slides.forEach((slide,n)=>{slide.hidden=n!==index;slide.inert=n!==index;slide.setAttribute('aria-hidden',String(n!==index))});dots.forEach((dot,n)=>dot.setAttribute('aria-current',String(n===index)))}
-function schedule(){clearInterval(timer);timer=null;if(!paused&&!hover&&!focus&&!document.hidden)timer=setInterval(()=>show(index+1),6000)}
-function sync(){pause.textContent=paused?'Play':'Pause';pause.setAttribute('aria-label',paused?'Start automatic rotation':'Pause automatic rotation');schedule()}
-function manual(i){show(i);schedule()}
-root.querySelector('#featured-prev').onclick=()=>manual(index-1);
-root.querySelector('#featured-next').onclick=()=>manual(index+1);
-dots.forEach((dot,n)=>dot.onclick=()=>manual(n));
-pause.onclick=()=>{paused=!paused;sync()};
-root.addEventListener('mouseenter',()=>{hover=true;schedule()});
-root.addEventListener('mouseleave',()=>{hover=false;schedule()});
-root.addEventListener('focusin',()=>{focus=true;schedule()});
-root.addEventListener('focusout',e=>{if(!root.contains(e.relatedTarget)){focus=false;schedule()}});
-document.addEventListener('visibilitychange',schedule);
-motion.addEventListener('change',e=>{if(e.matches)paused=true;sync()});
-show(0);controls.hidden=false;sync();
-})();
-</script>
+<section class="edition-feature" aria-labelledby="featured-heading">
+<div class="edition-heading"><h2 id="featured-heading">Editor's picks</h2><span>THE READING LIST / 01</span></div>
+<div class="edition-grid">
+{% for post in featured_posts %}
+<a class="edition-story {% if forloop.first %}edition-lead{% endif %}" href="{{ post.url | relative_url }}">
+{% if post.cover %}<img src="{{ post.cover | relative_url }}" alt="" {% if forloop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>{% else %}<div class="edition-placeholder" aria-hidden="true">↗</div>{% endif %}
+<div class="edition-copy"><p class="eyebrow">{{ post.category | escape }} · {% assign words = post.content | strip_html | number_of_words %}{{ words | plus: 199 | divided_by: 200 | at_least: 1 }} min read</p><h3>{{ post.title | escape }}</h3>{% if forloop.first %}<p>{{ post.description | default: post.excerpt | strip_html | escape }}</p>{% endif %}<span class="edition-read">Read story →</span></div>
+</a>
+{% endfor %}
+</div></section>
 {% endif %}
 <section class="featured-section" aria-labelledby="swi-heading"><h2 id="swi-heading" class="eyebrow">New article series</h2><a class="featured-card" href="/still-worth-it/"><img src="/assets/images/still-worth-it.svg" alt="" loading="lazy"><div><p class="eyebrow">Long-term reviews</p><h2>Still Worth It?</h2><p>Real ownership, real experience. A second look at the things we buy, long after the novelty wears off.</p><span class="featured-read">Explore the series →</span></div></a></section>
 <div class="section-head"><h2>Recently opened</h2><a href="{{ '/archive/' | relative_url }}">All articles →</a></div>
@@ -90,3 +36,11 @@ show(0);controls.hidden=false;sync();
   {% endunless %}
 {% endfor %}
 {% include post-list.html posts=recent_posts %}
+
+<section class="edition-discover" aria-labelledby="discover-heading"><div class="edition-heading"><h2 id="discover-heading">Explore the other tabs</h2><span>FIND SOMETHING DIFFERENT</span></div><div class="edition-topics">
+{% assign topics = 'Technology|Teaching|Photography|Gaming|Minimalism|Personal Finance' | split: '|' %}
+{% for topic in topics %}<a href="{{ '/archive/' | relative_url }}?category={{ topic | url_encode }}"><span>{{ forloop.index | prepend: '0' }}</span><strong>{{ topic }}</strong><span aria-hidden="true">↗</span></a>{% endfor %}
+</div><div class="edition-links"><a href="/lab/"><strong>The Lab</strong><span>Projects, experiments and things I've built →</span></a><a href="/gallery/"><strong>Photography</strong><span>A different way of seeing things →</span></a><a href="/uses/"><strong>Uses</strong><span>Hardware, software and everyday tools →</span></a><a href="/archive/?random=1"><strong>Surprise me</strong><span>Open a random article →</span></a></div></section></div>
+<style>
+.edition-home .hero{padding:18px 0 32px;align-items:end}.edition-home .hero h1{font-size:clamp(38px,6.4vw,76px);line-height:.99;max-width:850px;letter-spacing:-.065em}.edition-home .hero .intro{margin-top:18px;max-width:650px}.edition-heading{display:flex;align-items:baseline;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);margin:32px 0 16px;padding-bottom:10px}.edition-heading h2{margin:0;font-size:clamp(22px,3vw,30px)}.edition-heading>span{font:10px ui-monospace,monospace;color:var(--muted);letter-spacing:.08em}.edition-grid{display:grid;grid-template-columns:1.65fr 1fr;gap:14px}.edition-story{display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink);background:var(--soft);min-width:0;transition:transform .2s,border-color .2s}.edition-story:hover{transform:translateY(-3px);border-color:var(--accent)}.edition-lead{grid-row:span 2}.edition-story img,.edition-placeholder{width:100%;aspect-ratio:2.4/1;object-fit:cover;display:block;background:var(--chrome)}.edition-lead img,.edition-lead .edition-placeholder{aspect-ratio:16/10}.edition-placeholder{display:grid;place-items:center;color:var(--accent);font-size:48px;background:linear-gradient(135deg,var(--soft),var(--chrome))}.edition-copy{padding:16px 20px;flex:1}.edition-copy .eyebrow{margin:0 0 8px}.edition-copy h3{font-size:clamp(20px,2.3vw,28px);line-height:1.15;letter-spacing:-.035em;margin:0 0 10px}.edition-lead .edition-copy{padding:24px}.edition-lead h3{font-size:clamp(28px,4vw,46px);line-height:1.05}.edition-copy p:not(.eyebrow){color:var(--muted);font-size:15px}.edition-read{font-size:13px;color:var(--accent);font-weight:700}.edition-home .section-head{margin-top:38px}.edition-topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.edition-topics a{display:flex;align-items:center;gap:10px;padding:15px;border:1px solid var(--line);border-radius:8px;color:var(--ink);text-decoration:none}.edition-topics a span{font:12px ui-monospace,monospace;color:var(--accent)}.edition-topics a span:last-child{margin-left:auto}.edition-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:18px}.edition-links a{padding:18px;background:var(--soft);border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:8px}.edition-links strong{font-size:20px;letter-spacing:-.03em}.edition-links span{font-size:13px;color:var(--muted)}.edition-topics a:hover,.edition-links a:hover{border-color:var(--accent)}.edition-home .cover-placeholder{aspect-ratio:16/9;background:linear-gradient(135deg,var(--soft),var(--chrome));font-size:14px}.edition-home .cover-placeholder svg{width:45px;height:45px}.edition-home .entry h2{font-size:24px}@media(max-width:750px){.edition-grid{grid-template-columns:1fr 1fr}.edition-lead{grid-column:1/-1;grid-row:auto}.edition-topics,.edition-links{grid-template-columns:repeat(2,minmax(0,1fr))}.edition-heading>span{display:none}.edition-copy{padding:12px}.edition-copy h3{font-size:19px}.edition-lead .edition-copy{padding:18px}}@media(max-width:420px){.edition-grid{grid-template-columns:1fr}.edition-topics{grid-template-columns:1fr}.edition-links a{padding:12px}}@media(prefers-reduced-motion:reduce){.edition-story{transition:none}.edition-story:hover{transform:none}}
+</style>
